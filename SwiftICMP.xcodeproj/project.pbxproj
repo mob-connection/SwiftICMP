@@ -13,6 +13,8 @@
 		37F9699F2BFC95D000E2FCD9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37F9699E2BFC95D000E2FCD9 /* Base */; };
 		37F969A12BFC95D200E2FCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F969A02BFC95D200E2FCD9 /* Assets.xcassets */; };
 		37F969A42BFC95D200E2FCD9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37F969A32BFC95D200E2FCD9 /* Base */; };
+		37F969AC2BFC973600E2FCD9 /* SwiftPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F969AB2BFC973600E2FCD9 /* SwiftPing.swift */; };
+		37F969AF2BFCA4DA00E2FCD9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 37F969AE2BFCA4DA00E2FCD9 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		37F969A02BFC95D200E2FCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F969A32BFC95D200E2FCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37F969A52BFC95D200E2FCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F969AB2BFC973600E2FCD9 /* SwiftPing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPing.swift; sourceTree = "<group>"; };
+		37F969AE2BFCA4DA00E2FCD9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,14 @@
 		37F9698B2BFC95D000E2FCD9 = {
 			isa = PBXGroup;
 			children = (
-				37F969962BFC95D000E2FCD9 /* SwiftICMP */,
+				37F969AD2BFCA24900E2FCD9 /* Sources */,
+				37F969972BFC95D000E2FCD9 /* AppDelegate.swift */,
+				37F969992BFC95D000E2FCD9 /* SceneDelegate.swift */,
+				37F9699B2BFC95D000E2FCD9 /* ViewController.swift */,
+				37F9699D2BFC95D000E2FCD9 /* Main.storyboard */,
+				37F969A02BFC95D200E2FCD9 /* Assets.xcassets */,
+				37F969A22BFC95D200E2FCD9 /* LaunchScreen.storyboard */,
+				37F969A52BFC95D200E2FCD9 /* Info.plist */,
 				37F969952BFC95D000E2FCD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +64,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37F969962BFC95D000E2FCD9 /* SwiftICMP */ = {
+		37F969AD2BFCA24900E2FCD9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				37F969972BFC95D000E2FCD9 /* AppDelegate.swift */,
-				37F969992BFC95D000E2FCD9 /* SceneDelegate.swift */,
-				37F9699B2BFC95D000E2FCD9 /* ViewController.swift */,
-				37F9699D2BFC95D000E2FCD9 /* Main.storyboard */,
-				37F969A02BFC95D200E2FCD9 /* Assets.xcassets */,
-				37F969A22BFC95D200E2FCD9 /* LaunchScreen.storyboard */,
-				37F969A52BFC95D200E2FCD9 /* Info.plist */,
+				37F969AE2BFCA4DA00E2FCD9 /* PrivacyInfo.xcprivacy */,
+				37F969AB2BFC973600E2FCD9 /* SwiftPing.swift */,
 			);
-			path = SwiftICMP;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +133,7 @@
 			files = (
 				37F969A12BFC95D200E2FCD9 /* Assets.xcassets in Resources */,
 				37F969A42BFC95D200E2FCD9 /* Base in Resources */,
+				37F969AF2BFCA4DA00E2FCD9 /* PrivacyInfo.xcprivacy in Resources */,
 				37F9699F2BFC95D000E2FCD9 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37F9699C2BFC95D000E2FCD9 /* ViewController.swift in Sources */,
+				37F969AC2BFC973600E2FCD9 /* SwiftPing.swift in Sources */,
 				37F969982BFC95D000E2FCD9 /* AppDelegate.swift in Sources */,
 				37F9699A2BFC95D000E2FCD9 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,19 +302,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BYND2Z254S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftICMP/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LTD.SwiftICMP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,19 +336,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BYND2Z254S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftICMP/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LTD.SwiftICMP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
