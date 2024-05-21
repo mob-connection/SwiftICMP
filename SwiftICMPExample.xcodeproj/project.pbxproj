@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37F969942BFC95D000E2FCD9 /* SwiftICMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftICMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F969942BFC95D000E2FCD9 /* SwiftICMPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftICMPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F969972BFC95D000E2FCD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37F969992BFC95D000E2FCD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		37F9699B2BFC95D000E2FCD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		37F969952BFC95D000E2FCD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37F969942BFC95D000E2FCD9 /* SwiftICMP.app */,
+				37F969942BFC95D000E2FCD9 /* SwiftICMPExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37F969932BFC95D000E2FCD9 /* SwiftICMP */ = {
+		37F969932BFC95D000E2FCD9 /* SwiftICMPExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37F969A82BFC95D200E2FCD9 /* Build configuration list for PBXNativeTarget "SwiftICMP" */;
+			buildConfigurationList = 37F969A82BFC95D200E2FCD9 /* Build configuration list for PBXNativeTarget "SwiftICMPExample" */;
 			buildPhases = (
 				37F969902BFC95D000E2FCD9 /* Sources */,
 				37F969912BFC95D000E2FCD9 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftICMP;
+			name = SwiftICMPExample;
 			productName = SwiftICMP;
-			productReference = 37F969942BFC95D000E2FCD9 /* SwiftICMP.app */;
+			productReference = 37F969942BFC95D000E2FCD9 /* SwiftICMPExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37F9698F2BFC95D000E2FCD9 /* Build configuration list for PBXProject "SwiftICMP" */;
+			buildConfigurationList = 37F9698F2BFC95D000E2FCD9 /* Build configuration list for PBXProject "SwiftICMPExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37F969932BFC95D000E2FCD9 /* SwiftICMP */,
+				37F969932BFC95D000E2FCD9 /* SwiftICMPExample */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BYND2Z254S;
@@ -332,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BYND2Z254S;
@@ -364,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37F9698F2BFC95D000E2FCD9 /* Build configuration list for PBXProject "SwiftICMP" */ = {
+		37F9698F2BFC95D000E2FCD9 /* Build configuration list for PBXProject "SwiftICMPExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37F969A62BFC95D200E2FCD9 /* Debug */,
@@ -373,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37F969A82BFC95D200E2FCD9 /* Build configuration list for PBXNativeTarget "SwiftICMP" */ = {
+		37F969A82BFC95D200E2FCD9 /* Build configuration list for PBXNativeTarget "SwiftICMPExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37F969A92BFC95D200E2FCD9 /* Debug */,
